@@ -31,7 +31,7 @@ module ActiveRecord::ConnectionAdapters
     include Rein::View
   end
 
-  class PostgreSQLAdapter < PostgreSQLAdapter
+  class PostgreSQLAdapter
     include RC::PrimaryKey
     include RC::ForeignKey
     include RC::Inclusion
