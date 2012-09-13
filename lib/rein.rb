@@ -17,7 +17,7 @@ require "rein/constraint/presence"
 require "rein/view"
 
 module ActiveRecord::ConnectionAdapters
-  class MysqlAdapter < AbstractAdapter
+  class MysqlAdapter < AbstractMysqlAdapter
     include RC::PrimaryKey
     include RC::ForeignKey
     include Rein::View
