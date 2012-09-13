@@ -9,7 +9,7 @@ require "active_record"
 require "active_support/core_ext/hash"
 require "active_support/inflector"
 require 'active_record/connection_adapters/abstract_mysql_adapter'
-require 'active_record/connection_adapters/abstract_postgresql_adapter'
+require 'active_record/connection_adapters/postgresql_adapter'
 
 require "rein/constraint/primary_key"
 require "rein/constraint/foreign_key"
